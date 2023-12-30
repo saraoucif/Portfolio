@@ -1,0 +1,514 @@
+table.MuiTable-root {
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #FBFBFB;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.css-187halg{
+   background-color: #FBFBFB !important;
+}
+
+/*actions cells (edit/delete)*/
+.css-11w94w9-MuiTableCell-root {
+   border-bottom: 1px solid rgba(224, 224, 224, 1) !important;
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* rows och footer*/
+.MuiTable-root td,
+.MuiTable-root th {
+   padding: 16px;
+   vertical-align: middle;
+   border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+
+/*search och add project*/
+.css-ig9rso-MuiToolbar-root{
+   height: 40px !important;
+   min-height: 64px !important;
+   padding-left: 0px !important;
+   padding-right: 0px !important;
+   position: relative !important;
+   display: flex;
+   justify-content: space-between !important;
+}
+
+/* X knapp vid search bar*/
+.css-ptiqhd-MuiSvgIcon-root{
+   display: none !important;
+}
+
+.MuiTable-root th {
+   font-weight: 500;
+   background-color: #fafafa;
+}
+
+/*column head*/
+.MuiTable-root th{
+   background-color: #334F68 !important;
+   height: 33px !important;
+   min-height: 33px !important;
+   font-family: Montserrat, serif !important;
+   font-weight: bold;
+   font-size: 13px;
+   color: #FBFBFB;
+
+}
+
+.MuiTableHead-root th:hover {
+   cursor: pointer;
+}
+
+/*rows (project manager - go live date)*/
+.css-1ex1afd-MuiTableCell-root {
+   font-family: Montserrat, serif !important;
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25) !important;
+   font-size: 13px !important;
+}
+
+.MuiTable-root tbody tr:hover {
+   background-color: #f5f5f5;
+}
+
+.MuiTablePagination-root {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.MuiTablePagination-selectRoot {
+   margin-left: 16px;
+}
+
+.MuiTablePagination-caption {
+   font-size: 0.75rem;
+   color: rgba(0, 0, 0, 0.54);
+   margin-left: 16px;
+}
+
+/*Rows per page section*/
+.MuiTablePagination-toolbar {
+   height: 56px;
+   font-family: Montserrat, serif;
+   display: flex;
+   align-items: center;
+   padding: 0 16px;
+   justify-content: space-between;
+}
+
+/*texten mellan <   > i Rows per page section*/
+.css-1sn4lm3-MuiTypography-root {
+   color: #334F68 !important;
+   font-size: 0.75rem !important;
+   font-family: "Montserrat", serif !important;
+}
+
+.css-10by3a5-MuiButtonBase-root-MuiMenuItem-root-MuiTablePagination-menuItem {
+   font-family: "Montserrat", serif !important;
+   font-weight: normal !important;
+   color: #334F68 !important;
+}
+
+.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input{
+   color: #334F68 !important;
+}
+
+/*Delete row text*/
+.css-2ulfj5-MuiTypography-root{
+   font-family: "Montserrat", serif !important;
+   font-size: 14px !important
+}
+
+/*Validation text (project name, manager, progress)*/
+.css-1d1r5q-MuiFormHelperText-root{
+   font-family: "Montserrat", serif !important;
+}
+
+.css-1x51dt5-MuiInputBase-input-MuiInput-input{
+   font-family: "Montserrat", serif !important;
+}
+
+.css-1wc848c-MuiFormHelperText-root {
+   font-family: "Montserrat", serif !important;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root{
+   font-family: "Montserrat", serif !important;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+   font-family: "Montserrat", serif !important;
+}
+
+/*calender header*/
+.css-10fao8b-MuiPickersCalendarHeader-labelContainer{
+   font-family: "Montserrat", serif !important;
+}
+
+/*calender weekday header*/
+.css-raiqh1-MuiTypography-root-MuiDayPicker-weekDayLabel{
+   font-family: "Montserrat", serif !important;
+}
+
+/*calendar day*/
+.css-bkrceb-MuiButtonBase-root-MuiPickersDay-root{
+   font-family: "Montserrat", serif !important;
+}
+
+/*ringen runt dagen man väljer i kalendern*/
+.css-195y93z-MuiButtonBase-root-MuiPickersDay-root:not(.Mui-selected){
+   border: 2px solid #DC823D !important;
+}
+
+.css-bkrceb-MuiButtonBase-root-MuiPickersDay-root.Mui-selected{
+   background-color: #DC823D !important;
+   outline: none !important;
+}
+
+.css-3eghsz-PrivatePickersYear-button{
+   font-family: "Montserrat", serif !important;
+}
+
+.MuiSvgIcon-root{
+   color: #DC823D !important;
+}
+
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root.Mui-active{
+   color: white !important;
+}
+
+/* search bar input*/
+.css-v4u5dn-MuiInputBase-root-MuiInput-root{
+   background-color: transparent;
+   border-radius: 5px !important;
+   box-shadow: none !important;
+   padding: 5px !important;
+}
+
+/* hela tabellen och box shadow till den */
+.css-1mbunh-MuiPaper-root{
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25) !important;
+   border-radius: 0px !important;
+}
+
+.css-p9qzma{
+   color: lightgray !important;
+   border: 0
+}
+
+/*add project, edit, delete*/
+.css-zylse7-MuiButtonBase-root-MuiIconButton-root{
+   border-radius: 0 !important;
+   background-color: transparent !important;
+   outline: none !important;
+}
+
+.css-8je8zh-MuiTouchRipple-root{
+   border-radius: 0 !important;
+   overflow: hidden !important;
+}
+
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root:hover{
+   color: #FBFBFB !important;
+}
+
+/*save och cancel knappar*/
+.css-1e0d89p-MuiButtonBase-root-MuiIconButton-root{
+   outline: none !important;
+}
+
+/*calender ikon*/
+.css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root{
+   outline: none !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+   font-family: "Montserrat", serif !important;
+
+}
+
+/*text i inputfälten i tabellen*/
+.css-1x51dt5-MuiInputBase-input-MuiInput-input{
+   color: black !important;
+}
+
+.css-1x51dt5-MuiInputBase-input-MuiInput-input:focus{
+   border-bottom: none !important;
+}
+
+/*strecket under inputfält efter man tryckt på det*/
+.MuiInput-underline:after {
+   border-bottom-color: #DC823D !important;
+}
+
+/*streck under inputfält hover*/
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+   border-bottom-color: #DC823D !important;
+}
+
+.MuiInput-underline:hover {
+   border-bottom-color: #DC823D !important;
+}
+
+/*outline på dropdown boxes när man trycker på dem*/
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+   border-color: #DC823D !important;
+}
+
+/*ringen runt cancel i search bar*/
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+   outline: none !important;
+}
+
+/*ringen runt last page och first page i page bar*/
+.css-mf1cb5-MuiButtonBase-root-MuiIconButton-root {
+   outline: none !important;
+}
+
+/*milestones streck*/
+.css-z7uhs0-MuiStepConnector-line{
+   border-color: #D7D6D7 !important;
+   border-top-width: 2px !important;
+   margin-bottom: 14px !important;
+   border-top-style: none !important;
+   flex-grow: 1;
+}
+
+.MuiStepConnector-lineHorizontal {
+   margin-left: -22px;
+   margin-right: -13.5px;
+}
+
+.MuiStepConnector-lineHorizontal {
+   display: none;
+}
+.MuiStepConnector-root {
+  flex: 1;
+}
+.MuiStepIcon-root {
+  position: relative;
+}
+.MuiStepIcon-active:after {
+  content: '';
+  height: 1px;
+  width: calc(100% - 24px);
+  background-color: #ccc;
+  position: absolute;
+  top: 9px;
+  left: calc(50% + 12px);
+}
+
+.css-13sdi7-MuiStepLabel-root .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root{
+   font-size: 21px;
+}
+
+.css-1bw0nnu-MuiStep-root{
+   padding-right: 0px !important;
+   padding-left: 0px !important;
+}
+
+.css-7wvc1d-MuiTableCell-root{
+   width: 90px !important;
+}
+
+.css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input.Mui-disabled{
+   -webkit-text-fill-color: #5a4444 !important;
+}
+
+/* milestones streck */
+.css-ls6wpp .MuiStepConnector-line{
+   border-color: #DC823D !important;
+   border-top-width: 2px !important;
+   margin-bottom: 14px !important;
+   border-top-style: none !important;
+   flex-grow: 1;
+}
+
+/* texten i raderna */
+.css-q34dxg {
+   font-family: Montserrat, serif !important;
+}
+
+/* validation text för status*/
+.css-v7esy{
+   font-family: Montserrat, serif !important;
+}
+ /* validation text för project osv*/
+.css-j7o63n{
+   font-family: Montserrat, serif !important;
+}
+
+.css-mnn31{
+   font-family: Montserrat, serif !important;
+}
+
+/*status drop box*/
+.css-1km1ehz{
+   font-family: Montserrat, serif !important;
+}
+
+/* månad och år i date picker*/
+.css-l0iinn{
+   font-family: Montserrat, serif !important;
+}
+
+/* datum i date picker*/
+.css-ub1r1{
+   font-family: Montserrat, serif !important;
+}
+
+/* veckodag i date picker*/
+.css-10qkmc3{
+   font-family: Montserrat, serif !important;
+   color: #334F68 !important;
+   font-weight: bold !important;
+}
+
+/* displayed text i status drop box*/
+.css-qiwgdb{
+   font-family: Montserrat, serif !important;
+}
+
+.css-1i36psw{
+   font-family: Montserrat, serif !important;
+}
+
+/* x-x of x footer */
+.css-1v2gfp5{
+   font-family: Montserrat, serif !important;
+   color: #334F68 !important;
+}
+
+/* rows per page */
+.css-1chpzqh{
+   color: #334f68 !important;
+}
+
+/* rows per page siffran displayed */
+.css-1cccqvr.css-1cccqvr.css-1cccqvr{
+   color: #334f68 !important;
+}
+
+/* rows per page drop box */
+.css-1gs62wq{
+   font-family: Montserrat, serif !important;
+}
+
+/* text i milestones*/
+.css-10psl7k{
+   display: none !important;
+}
+
+/* milestones inte uppfyllda */
+.css-4ff9q7{
+   color: lightgrey !important;
+}
+
+/* milestones storlek */
+.css-1eygqjm{
+   font-size: 28px !important;
+}
+
+/* delete this project? */
+.css-1anx036{
+   font-family: Montserrat, serif !important;
+   font-size: 14px !important;
+}
+
+/* search bar */
+.css-zrqpq1{
+   background-color: transparent;
+   border-radius: 5px !important;
+   box-shadow: none !important;
+   padding: 5px !important;
+}
+
+/* search och add project server */
+.css-1phf58d{
+   height: 40px !important;
+   min-height: 64px !important;
+   padding-left: 0px !important;
+   padding-right: 0px !important;
+   position: relative !important;
+   display: flex;
+   justify-content: space-between !important;
+}
+
+.css-mnn31{
+   color: black !important;
+}
+
+.css-1uvydh2{
+   font-family: Montserrat, serif !important;
+}
+
+/* kryss vid search bar */
+.css-1k33q06{
+   display: none !important;
+}
+
+.css-4ff9q7{
+   content: none !important;
+}
+
+.css-ub1r1.Mui-selected{
+   background-color: #DC823D !important;
+}
+
+.css-wed0tz:not(.Mui-selected){
+   border: 1px solid #DC823D !important;
+}
+
+.css-vubbuv .Mui-selected{
+   border: none !important;
+}
+
+.css-qiwgdb.css-qiwgdb.css-qiwgdb{
+   margin-left: -10px !important;
+}
+
+.css-m1gykc{
+   font-family: Montserrat, serif !important;
+}
+
+.css-m1gykc.Mui-selected{
+   background-color: #DC823D !important;
+}
+
+/* outlines när man trycker knapp */
+.css-1deacqj{
+   outline: none !important;
+   border-radius: 80% !important;
+}
+
+.css-vubbuv{
+   outline: none !important;
+}
+
+.css-q28n79{
+   outline: none !important;
+}
+
+/* kolumn när man tryckt för att sortera */
+.css-dx096b.Mui-active{
+   color: #FBFBFB !important;
+}
+
+/* kolumn hover */
+.css-dx096b:hover{
+   color: #FBFBFB !important;
+}
+
+/* textfield när man inte tryckt edit */
+.css-u36398.Mui-disabled{
+   -webkit-text-fill-color: #5a4444 !important;
+}
+
+/* DROP BOX FÖR STATUS NÄR MAN GÖR ADD*/
+.css-qiwgdb.css-qiwgdb.css-qiwgdb{
+   padding-right: 10px !important;
+   margin-left: -10px !important;
+}
